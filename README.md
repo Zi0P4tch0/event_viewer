@@ -1,6 +1,6 @@
 # AWS Kinesis Event Viewer
 
-A simple AWS Kinesis stream viewer written in Rust, using the 
+Simple AWS Kinesis stream viewer written in Rust, using the 
 official AWS Rust SDK.
 
 ## How to run
@@ -17,6 +17,7 @@ cargo run
 
 MIT License
 
+```
 Copyright (c) 2022 Matteo Pacini
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -36,3 +37,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
