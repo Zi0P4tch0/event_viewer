@@ -5,12 +5,24 @@ official AWS Rust SDK.
 
 ## How to run
 
+- Normal run
+
 ```
 AWS_ACCESS_KEY_ID="XXX" \
 AWS_SECRET_ACCESS_KEY='YYY' \
 AWS_DEFAULT_REGION="us-east-1" \ 
 AWS_KINESIS_STREAM_NAME="fancy-stream-name" \
 cargo run
+```
+
+- Quiet / JSON (requires **Pygments**)
+
+```
+AWS_ACCESS_KEY_ID="ZZZ" \
+AWS_SECRET_ACCESS_KEY='SSS' \
+AWS_DEFAULT_REGION="us-east-1" \
+AWS_KINESIS_STREAM_NAME="fancy-stream-name" \
+cargo -q run -- --quiet | pygmentize -s -l json -O style=nord
 ```
 
 ## License
